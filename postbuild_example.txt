@@ -1,0 +1,2 @@
+if $(ConfigurationName) == Debug  $(SolutionDir)Requirements\Tools\ProjectBuildCounter.exe $(ProjectDir)Properties\AssemblyInfo.cs R
+if $(ConfigurationName) == Release $(SolutionDir)Requirements\Tools\ProjectBuildCounter.exe $(ProjectDir)Properties\AssemblyInfo.cs B
